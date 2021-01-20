@@ -1,5 +1,5 @@
 from django.urls import path, include
 
 urlpatterns = [
-    path('testDownload/', include('video_downloader.urls')),
+    path('', include('video_downloader.urls')),
 ]

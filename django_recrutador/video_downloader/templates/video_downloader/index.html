@@ -1,0 +1,12 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'home/home.css' %}">
+
+<div class="list">
+    <ul>
+        {% for job in jobs %}
+            <li>{{ job }}</li>
+        {% endfor %}
+    </ul>
+</div>
+
+<script src="{% static 'home/home.js' %}"></script>
