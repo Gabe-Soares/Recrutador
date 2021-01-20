@@ -187,3 +187,6 @@ media/
 # !**/migrations
 # !**/migrations/__init__.py
 >>>>>>> 94b2a467c102726bc6397b71ca8b981549d261df
+
+**/test_video.webm
+./Videos
